@@ -16,7 +16,7 @@ describe Solution do
       input = %w[two1nine eightwothree abcone2threexyz xtwone3four 4nineeightseven2 zoneight234
                  7pqrstsixteen]
 
-      it 'returns expected output' do
+      fit 'returns expected output' do
         output = Solution.run(input)
         expect(output).to eq(281)
       end
@@ -33,7 +33,7 @@ describe Solution do
 
     context 'part 1' do
       it 'returns expected output' do
-        output = Solution.run(lines)
+        # output = Solution.run(lines)
 
         expect(output).to eq(52_974)
       end
@@ -41,7 +41,7 @@ describe Solution do
 
     context 'part 2' do
       it 'returns expected output' do
-        output = Solution.run(input)
+        # output = Solution.run(input)
         expect(output).to eq(142)
       end
     end

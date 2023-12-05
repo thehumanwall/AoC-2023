@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+gem 'pry'
+gem 'pry-byebug'
 gem 'rspec'
 gem 'rubocop'
 gem 'ruby-lsp'
